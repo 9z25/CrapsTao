@@ -3,6 +3,9 @@ body {
   font-family: Garamond
 }
 
+.mt-5, .my-5 {
+margin-top: 1rem !important;
+}
 /* Additional Styles */
 .dice {
   display: inline !important;

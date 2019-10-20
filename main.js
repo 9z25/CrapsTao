@@ -33736,7 +33736,7 @@ $packages["main"] = (function() {
 		gs[0].BasicHTMLElement.BasicElement.Class().Add("invisible");
 		_r$21 = fmt.Println(new sliceType$2([new $String("Connection attempt ...")])); /* */ $s = 22; case 22: if($c) { $c = false; _r$21 = _r$21.$blk(); } if (_r$21 && _r$21.$blk !== undefined) { break s; }
 		_r$21;
-		_tuple = websocketjs.New("ws://34.221.217.31:8080/ws");
+		_tuple = websocketjs.New("ws://127.0.0.1:1334/ws");
 		ws[0] = _tuple[0];
 		err = _tuple[1];
 		/* */ if (!($interfaceIsEqual(err, $ifaceNil))) { $s = 23; continue; }

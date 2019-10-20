@@ -80,3 +80,11 @@ margin-top: 1rem !important;
    display: inline-block;
    float: left;
 }
+
+.tao-text {
+  font-size: x-small;
+  position: absolute;
+  top: 13%;
+  left: 11.5%;
+  z-index: 10;
+}

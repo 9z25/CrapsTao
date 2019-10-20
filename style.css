@@ -1,0 +1,79 @@
+body {
+  background-image: url('./res/newbackground.png');
+  font-family: Garamond
+}
+
+/* Additional Styles */
+.dice {
+  display: inline !important;
+}
+.button {
+  width:100%;
+  white-space: nowrap;
+}
+
+.score {
+  font-weight: bold;
+}
+
+.infobox {
+  background-color: #a1cf46;
+  box-sizing: border-box;
+  border: solid;
+  border-color: darkcyan orchid;
+}
+
+.point-box {
+  background-color: #e0db4a;
+  border: dotted;
+}
+
+.room {
+  margin-bottom: 60px;
+}
+
+.users {
+  list-style-type: none;
+  font-weight: bold;
+  padding-left: 0px;
+}
+
+.point {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.wager {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.gamble-box {
+  background-color: #92ddc8;
+}
+
+.user-box {
+  background-color:#6bc7ae;
+}
+
+.pots {
+  background-image: url('./res/newbackground.png');
+  border: none;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: inline;
+}
+
+.glyph-magic {
+ 
+   background:url('https://i.postimg.cc/0N8qbJF1/tao.png') left top; 
+   width:16px; 
+   height:16px;
+   display: inline-block;
+   float: left;
+}

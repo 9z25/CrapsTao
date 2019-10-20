@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"></link>
+	<link rel = "stylesheet" href = "style.css"></link>
+	<title>Dicee game</title>
+</head>
+<body>
+  <!-- HEADER -->
+	<!--
+  <section class = "header">
+      <div class = "container">
+
+      </div>
+  </section>
+
+-->
+
+  <!-- MAIN -->
+  <section class = "main mt-5">
+		<div class = "container">
+<div id="login-screen">
+			<div class = "row">
+
+					<div class="form-group mx-sm-3 mb-2">
+						<input type="text" class="form-control" id = "username" placeholder = "Username">
+					</div>
+					<button class="btn btn-primary mb-2" id="enter">Sign In</button>
+
+			</div>
+</div>
+<div id="gamble-screen">
+          <div class = "row" >
+              <div class = "col-md-2 mt-5">
+
+								<div class = "card pots">
+									  <div class = "card-body infobox room">
+											 <h4 class = "text-center point" id="pot-amount">
+												 	$100
+											 </h4>
+									  </div>
+								</div>
+
+								<div class = "card">
+								<div class = "card-header gamble-box">
+											<h4 class = "text-center">
+												Room
+											</h4>
+										</div>
+								<div class = "card-body user-box">
+								     <ol class="users" id="room">
+								             <li>Richie</li>
+								             <li>Jerry</li>
+								             <li>Anna</li>
+											 <li>Harold</li>
+											 <li>Jessica</li>
+								     </ol>
+								</div>
+								</div>
+              </div>
+
+              <div class = "col-md-6 mt-5">
+			  <div class="card">
+                                        <div class = "card-body infobox">
+											 <h4 class = "text-center point" id = "dice-roll">
+												 	
+											 </h4>
+										</div>
+			</div>
+								<div class = "row mt-5">
+									<div class = "col-md-6">
+										  <img class = "img-fluid dice d-inline" src = "./res/dice1.png" id="left-dice"  />
+									</div>
+									<div class = "col-md-6">
+										  <img class = "img-fluid dice d-inline" src = "./res/dice2.png" id="right-dice"  />
+									</div>
+								</div>
+
+								<div class = "row text-center mt-3">
+										  <div class = "col-md-6 offset-3">
+												<button class = "btn btn-primary btn-lg button px-5" id="roll-button">
+														Roll
+												</button>
+
+											</div>
+								</div>
+
+
+              </div>
+
+              <div class = "col-md-4 mt-5">
+								<div class = "card">
+									  <div class = "card-header gamble-box">
+											<h4 class = "text-center wager" id="result">
+
+											</h4>
+										</div>
+										<div class = "card-header point-box" >
+								     		<h4 class = "text-center point" id="point-box">
+												
+									    	</h4>
+								        </div>
+
+										<div class = "card-body gamble-box">
+											<div class = "row">
+												  <div class = "col-md-6">
+														  <button class = "btn btn-primary d-inline button" id="pass">Pass</button>
+													</div>
+
+													<div class = "col-md-6">
+														  <button class = "btn btn-primary d-inline button" id="dont-pass">No Pass</button>
+													</div>
+											</div>
+
+											<div class = "row mt-3">
+												<div class = "col-md-12">
+												<div class = "card-header" >
+												      <h4 class = "text-center wager" id="wager-amount">
+												 	    $50
+											          </h4>
+											    </div>
+													  <button class = "btn btn-primary text-center button" id="wager">Wager</button>
+												</div>
+											</div>
+
+											<div class = "row mt-3">
+												  <div class = "col-md-3">
+														<button class = "btn btn-primary text-center button" id="one-dollar">$1</button>
+													</div>
+
+													<div class = "col-md-3">
+														<button class = "btn btn-primary text-center button" id="five-dollar">$5</button>
+												 </div>
+
+												 <div class = "col-md-3">
+													 <button class = "btn btn-primary text-center button" id="twentyfive-dollar">$25</button>
+												 </div>
+
+												 <div class = "col-md-3">
+													 <button class = "btn btn-primary text-center button" id="onehundred-dollar">$50</button>
+												 </div>
+											</div>
+
+											<div class = "row mt-3">
+												<div class = "col-md-12">
+													  <button class = "btn btn-primary text-center button">Clear</button>
+												</div>
+											</div>
+											<div class = "card-header" >
+												      <h4 class = "text-center wager" id="balance-amount">
+												 	    $50
+											          </h4>
+											</div>
+
+										</div>
+								</div>
+              </div>
+          </div>
+</div>
+				</div>
+  </section>
+
+<script defer src="helloWorld.js"></script>
+</body>
+</html>
